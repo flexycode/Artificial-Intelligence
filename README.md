@@ -6,11 +6,17 @@ Research associated with artificial intelligence is highly technical and special
 
 
 *Knowledge
+
 *Reasoning
+
 *Problem solving
+
 *Perception
+
 *Learning
+
 *Planning
+
 *Ability to manipulate and move objects
 
 Knowledge engineering is a core part of AI research. Machines can often act and react like humans only if they have abundant information relating to the world. Artificial intelligence must have access to objects, categories, properties and relations between all of them to implement knowledge engineering. Initiating common sense, reasoning and problem-solving power in machines is a difficult and tedious task.
