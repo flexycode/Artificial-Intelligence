@@ -1,6 +1,6 @@
 # Artificial-Intelligence
 
-intelligent machines. It has become an essential part of the technology industry.
+Artificial intelligence is a branch of computer science that aims to create intelligent machines. It has become an essential part of the technology industry.
 
 Research associated with artificial intelligence is highly technical and specialized. The core problems of artificial intelligence include programming computers for certain traits such as:
 
@@ -19,7 +19,9 @@ Research associated with artificial intelligence is highly technical and special
 
 *Ability to manipulate and move objects
 
+
 Knowledge engineering is a core part of AI research. Machines can often act and react like humans only if they have abundant information relating to the world. Artificial intelligence must have access to objects, categories, properties and relations between all of them to implement knowledge engineering. Initiating common sense, reasoning and problem-solving power in machines is a difficult and tedious task.
+
 
 Machine learning is also a core part of AI. Learning without any kind of supervision requires an ability to identify patterns in streams of inputs, whereas learning with adequate supervision involves classification and numerical regressions.
 
