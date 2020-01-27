@@ -32,3 +32,5 @@ Machine perception deals with the capability to use sensory inputs to deduce the
 
 Robotics is also a major field related to AI. Robots require intelligence to handle tasks such as object manipulation and navigation, along with sub-problems of localization, motion planning and mapping.
 
+Source: https://www.techopedia.com/downloads
+
