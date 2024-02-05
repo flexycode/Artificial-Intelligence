@@ -32,11 +32,12 @@ Research associated with artificial intelligence is highly technical and special
 ```bash
 This topic will take some update and patch note during this year 2024
 ```
+# 💫 Machine Learning
 
 ### Knowledge engineering is a core part of AI research. Machines can often act and react like humans only if they have abundant information relating to the world. Artificial intelligence must have access to objects, categories, properties and relations between all of them to implement knowledge engineering. Initiating common sense, reasoning and problem-solving power in machines is a difficult and tedious task.
 
 
-### 🤖 Machine learning is also a core part of AI. Learning without any kind of supervision requires an ability to identify patterns in streams of inputs, whereas learning with adequate supervision involves classification and numerical regressions.
+#### 🤖 Machine learning is also a core part of AI. Learning without any kind of supervision requires an ability to identify patterns in streams of inputs, whereas learning with adequate supervision involves classification and numerical regressions.
 
 
 Classification determines the category an object belongs to and regression deals with obtaining a set of numerical input or output examples, thereby discovering functions enabling the generation of suitable outputs from respective inputs. Mathematical analysis of machine learning algorithms and their performance is a well-defined branch of theoretical computer science often referred to as computational learning theory.
@@ -45,7 +46,7 @@ Machine perception deals with the capability to use sensory inputs to deduce the
 
 Robotics is also a major field related to AI. Robots require intelligence to handle tasks such as object manipulation and navigation, along with sub-problems of localization, motion planning and mapping..
 
-Source: https://www.techopedia.com/downloads.
+Source: ```https://www.techopedia.com/downloads.``` 
 
 
 # Samples, Reference Architectures & Best Practices
