@@ -75,7 +75,7 @@ if you have git older than 2.13 run:
 
 ```bash
 git clone --recursive https://github.com/microsoft/ai.git
-```
+``` 
 
 To pull a single submodule (e.g. DeployDeepModelKubernetes) run:
 ```
