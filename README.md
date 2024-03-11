@@ -60,7 +60,7 @@ Source: ```https://www.techopedia.com/downloads.``` 
 
 * A neural network is a type of machine learning algorithm that is inspired by the structure and function of the human brain, and consist of interconnected processing nodes that are organized into layers.
 
-### 2. Logistic Regression 
+### 2. Logistic Regression  
 * Logistic Regression is a Supervised statistical technique to find the probability of dependent variable.
 
 * The Logistic Regression instead for fitting the best fit line, condenses the output of the linear function between 0 and 1.
@@ -83,7 +83,7 @@ Learning a LR means estimating the coefficients from the training data. Common m
 ### 4. Central limit theorem
 For `large` sample sizes, the sampling distribution of `means` will approximate to `normal distribution` even if the population distribution is not normal.
 
-<img src="images/4.Central limit theorem.png">
+<img src="images/4.Central limit theorem.png"> 
 
 Above picture, shows 3 different `population` distributions which are `not normal`. `Sampling` distribution of `means` gets a little closer to normal distribution when we take n = 5 and almost normal distribution when `n=30` 
 
@@ -101,11 +101,17 @@ If R² is 0.8 it means `80% of the variation` in the output can be explained by 
 #### Random Forest
 A random forest is a type of ensemble learning algorithm that trains multiple decision tress on random subsets of the data and then combines their predictions to make a final prediction. This can improve the performance of the model compared to using a single decision tree.
 
-#### Random Forest Workflow chart
+#### Random Forest Workflow chart  
 
 <img src="images/6.Random-Forest-workflow.png">
 
+### 7. Support Vector Machines
 
+<img src="images/7.Support Vector Machines.png">
+
+### 8. Nearest Neighbour
+
+<img src="images/8.Nearest Neighbor.png">
 
 # Samples, Reference Architectures & Best Practices
 
@@ -118,7 +124,7 @@ batch scoring, realtime scoring, model training, MLOps, Azure Machine Learning, 
 1. [Getting Started](#Getting-Started)
 2. [AI100 - Samples](#ai100)
 3. [AI200 - Reference Architectures](#ai200)
-4. [AI300 - Best Practices](#ai300)
+4. [AI300 - Best Practices](#ai300) 
 6. [Contributing](#Contributing)
 
 # Getting Started <a name="Getting-Started"></a>
