@@ -86,6 +86,25 @@ For `large` sample sizes, the sampling distribution of `means` will approximate 
 
 Above picture, shows 3 different `population` distributions which are `not normal`. `Sampling` distribution of `means` gets a little closer to normal distribution when we take n = 5 and almost normal distribution when `n=30` 
 
+### 5. R-Square 
+R-square(R²) is also known as the `coefficient of determination`, It is the `proportion` of variation in `Y explained by` the independent variables `X`. It is the measure of goodness of fit of the model.
+
+<img src="images/5.R-Square.png">
+
+If R² is 0.8 it means `80% of the variation` in the output can be explained by the `input variable`.
+
+### 6. Random Forest
+
+<img src="images/6.Random-Forest.png">
+
+#### Random Forest
+A random forest is a type of ensemble learning algorithm that trains multiple decision tress on random subsets of the data and then combines their predictions to make a final prediction. This can improve the performance of the model compared to using a single decision tree.
+
+#### Random Forest Workflow chart
+
+<img src="images/6.Random-Forest-workflow.png">
+
+
 
 # Samples, Reference Architectures & Best Practices
 
