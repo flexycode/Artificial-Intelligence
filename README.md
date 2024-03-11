@@ -156,8 +156,10 @@ Return: jointgrid object with the plot on it.
 ```
 Below is the implementation of above method:
 
-Example 1:
+#### Example 1:
+
 #### Input:
+
 ```bash
 # importing required packages 
 import seaborn as sns 
@@ -169,7 +171,7 @@ data = sns.load_dataset("attention")
 # draw jointplot with 
 # hex kind 
 sns.jointplot(x = "solutions", y = "score", 
-              kind = "hex", data = data)   
+              kind = "hex", data = data)    
 # show the plot 
 plt.show() 
 ```
@@ -177,11 +179,15 @@ plt.show()
 
 <img src:="images/10.Seaborn-Output1.png">
 
-Example 2: 
+```bash
+# Just click the output link to view the result
+```
+#### Example 2:
 
 #### Input: 
 
 ```bash
+ 
 # importing required packages 
 import seaborn as sns 
 import matplotlib.pyplot as plt  
@@ -192,19 +198,74 @@ data = sns.load_dataset("mpg")
 # draw jointplot with 
 # scatter kind 
 sns.jointplot(x = "mpg", y = "acceleration", 
-              kind = "scatter", data = data)
+              kind = "scatter", data = data) 
 
 # show the plot 
-plt.show() 
+plt.show()
+  
 ```
-#### Output:
+#### [Output:](https://github.com/flexycode/Artificial-Intelligence/blob/master/images/10.Seaborn-Output2.png)
+
 <img src:="images/10.Seaborn-Output2.png">
 
-Example 3: 
+```bash 
+# Just click the output link to view the result
+```
+#### Example 3:
 
-#### Input:
+#### Input: 
+```bash
+ # importing required packages 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
+  
+# loading dataset 
+data = sns.load_dataset("exercise") 
+  
+# draw jointplot with 
+# kde kind 
+sns.jointplot(x = "id", y = "pulse", 
+              kind = "kde", data = data)  
+# Show the plot 
+plt.show() 
+```
+#### [Output:](https://github.com/flexycode/Artificial-Intelligence/blob/master/images/10.Seaborn-Output3.png)
 
+<img src:="images/10.Seaborn-Output3.png">
 
+```bash
+# Just click the output link to view the result
+```
+
+#### Example 4:
+
+#### Input: 
+```bash
+# importing required packages 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
+  
+# loading dataset 
+data = sns.load_dataset("titanic")  
+  
+# draw jointplot with 
+# reg kind 
+sns.jointplot(x = "age", y = "fare", 
+              kind = "reg", data = data, 
+              dropna = True) 
+  
+# show the plot 
+plt.show()
+ 
+```
+
+#### [Output:](https://github.com/flexycode/Artificial-Intelligence/blob/master/images/10.Seaborn-Output4.png)
+
+<img src:="images/10.Seaborn-Output3.png">
+
+```bash
+# Just click the output link to view the result
+```
 
 # Samples, Reference Architectures & Best Practices
 
