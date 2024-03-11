@@ -48,6 +48,12 @@ Robotics is also a major field related to AI. Robots require intelligence to han
 
 Source: ```https://www.techopedia.com/downloads.``` 
 
+## Machine Learning Algorithm
+
+1. Neural Network
+* A neural network is a type of machine learning algorithm that is inspired by the structure and function of the human brain, and consist of interconnected processing nodes that are organized into layers.
+
+2. 
 
 # Samples, Reference Architectures & Best Practices
 
