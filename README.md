@@ -174,6 +174,7 @@ sns.jointplot(x = "solutions", y = "score",
 plt.show() 
 ```
 #### Output: 
+
 <img src:="images/Seaborn Output 1.png">
 
 Example 2: 
@@ -195,8 +196,6 @@ plt.show()
 ```
 #### Output:
 <img src:="images/Seaborn Output 2.png">
-
-
 
 
 # Samples, Reference Architectures & Best Practices
