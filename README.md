@@ -50,10 +50,16 @@ Source: ```https://www.techopedia.com/downloads.``` 
 
 ## Machine Learning Algorithm
 
-1. Neural Network
+### 1. Neural Network 
 * A neural network is a type of machine learning algorithm that is inspired by the structure and function of the human brain, and consist of interconnected processing nodes that are organized into layers.
 
-2. 
+### 2. Logistic Regression 
+* Logistic Regression is a Supervised statistical technique to find the probability of dependent variable.
+
+* The Logistic Regression instead for fitting the best fit line, condenses the output of the linear function between 0 and 1.
+
+
+
 
 # Samples, Reference Architectures & Best Practices
 
