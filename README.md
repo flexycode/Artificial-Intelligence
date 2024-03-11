@@ -106,14 +106,98 @@ A random forest is a type of ensemble learning algorithm that trains multiple de
 <img src="images/6.Random-Forest-workflow.png">
 
 ### 7. Support Vector Machines
-
+#### SVM algorithm
 <img src="images/7.Support Vector Machines.png">
 
-### 8. Nearest Neighbour
+Support vector machines (SVMs) are a type of machine learning algorthm that is used for classification and regression tasks and finds the hyperplane that maximally separates the classes in the data.
 
+Support Vector Machine (SVM) is a powerful machine learning algorithm used for linear or nonlinear classification, regression, and even outlier detection tasks. SVMs can be used for a variety of tasks, such as text classification, image classification, spam detection, handwriting identification, gene expression analysis, face detection, and anomaly detection. SVMs are adaptable and efficient in a variety of applications because they can manage high-dimensional data and nonlinear relationships.
+
+SVM algorithms are very effective as we try to find the maximum separating hyperplane between the different classes available in the target feature.
+
+### 8. Nearest Neighbour
+#### Nearest neighbour algorithm
 <img src="images/8.Nearest Neighbor.png">
 
 Neareast neighbor is a type of machine learning algorithm that makes predictions for a sample by finding the most similar samples in the training data and using their labels to make a prediction
+
+## Seaborn joint plot
+
+<img src="images/9.Seaborn joint  plot.png">
+
+#### Python – seaborn.jointplot() method
+`Seaborn` is a Python data visualization library based on `matplotlib`. It provides a high-level interface for drawing attractive and informative statistical graphics. Seaborn helps resolve the two major problems faced by Matplotlib; the problems are ?
+
+* Default Matplotlib parameters
+* Working with data frames
+
+As Seaborn compliments and extends Matplotlib, the learning curve is quite gradual. If you know Matplotlib, you are already half-way through Seaborn.
+
+#### seaborn.jointplot() : 
+Draw a plot of two variables with bivariate and univariate graphs. This function provides a convenient interface to the ‘JointGrid’ class, with several canned plot kinds. This is intended to be a fairly lightweight wrapper; if you need more flexibility, you should use :class:’JointGrid’ directly.
+
+```bash
+Syntax: seaborn.jointplot(x,  y,  data=None, kind=’scatter’, stat_func=None, color=None, height=6, ratio=5, space=0.2, dropna=True,  xlim=None, ylim=None, joint_kws=None, marginal_kws=None, annot_kws=None, **kwargs)
+
+
+Parameters: The description of some main parameters are given below:
+
+x, y: These parameters take Data or names of variables in “data”.
+
+data: (optional) This parameter take DataFrame when “x” and “y” are variable names.
+
+kind: (optional) This parameter take Kind of plot to draw.
+
+color:  (optional) This parameter take Color used for the plot elements.
+
+dropna: (optional) This parameter take boolean value, If True, remove observations that are missing from “x” and “y”.
+
+Return: jointgrid object with the plot on it.
+```
+Below is the implementation of above method:
+
+Example 1:
+#### Input:
+```bash
+# importing required packages 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
+  
+# loading dataset 
+data = sns.load_dataset("attention") 
+  
+# draw jointplot with 
+# hex kind 
+sns.jointplot(x = "solutions", y = "score", 
+              kind = "hex", data = data)  
+# show the plot 
+plt.show() 
+```
+#### Output: 
+<img src:="images/Seaborn Output 1.png">
+
+Example 2: 
+#### Input:
+```bash
+# importing required packages 
+import seaborn as sns 
+import matplotlib.pyplot as plt 
+  
+# loading dataset 
+data = sns.load_dataset("mpg") 
+  
+# draw jointplot with 
+# scatter kind 
+sns.jointplot(x = "mpg", y = "acceleration", 
+              kind = "scatter", data = data) 
+# show the plot 
+plt.show() 
+```
+#### Output:
+<img src:="images/Seaborn Output 2.png">
+
+
+
 
 # Samples, Reference Architectures & Best Practices
 
