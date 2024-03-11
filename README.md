@@ -51,6 +51,8 @@ Source: ```https://www.techopedia.com/downloads.``` 
 ## Machine Learning Algorithm
 
 ### 1. Neural Network 
+<img src="images/1.neural network.png">
+
 * A neural network is a type of machine learning algorithm that is inspired by the structure and function of the human brain, and consist of interconnected processing nodes that are organized into layers.
 
 ### 2. Logistic Regression 
@@ -58,7 +60,11 @@ Source: ```https://www.techopedia.com/downloads.``` 
 
 * The Logistic Regression instead for fitting the best fit line, condenses the output of the linear function between 0 and 1.
 
+<img src="images/2.logistic regression.png">
 
+* In the formula of the logistic mode, when b0 + b1x = 0, then the p will be 0.5, similarly, b0 + b1x > 0, then the p will be going towards 1 and b0 + b1x < 0, then the p will be going towards 0.
+
+### 3. 
 
 
 # Samples, Reference Architectures & Best Practices
