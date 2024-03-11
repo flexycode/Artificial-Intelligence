@@ -113,6 +113,8 @@ A random forest is a type of ensemble learning algorithm that trains multiple de
 
 <img src="images/8.Nearest Neighbor.png">
 
+Neareast neighbor is a type of machine learning algorithm that makes predictions for a sample by finding the most similar samples in the training data and using their labels to make a prediction
+
 # Samples, Reference Architectures & Best Practices
 
 This repository is meant to organize Microsoft's Open Source AI based repositories.
