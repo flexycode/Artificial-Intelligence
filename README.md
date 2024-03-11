@@ -64,7 +64,18 @@ Source: ```https://www.techopedia.com/downloads.``` 
 
 * In the formula of the logistic mode, when b0 + b1x = 0, then the p will be 0.5, similarly, b0 + b1x > 0, then the p will be going towards 1 and b0 + b1x < 0, then the p will be going towards 0.
 
-### 3. 
+### 3. Linear Regression
+A Linear Regression model representation is a linear equation:
+<img src="images/3.Linear Regression.png">
+
+Learning a LR means estimating the coefficients from the training data. Common methods include Gradient Descent or Ordinary Least Squares.
+
+#### Variations
+* Lasso Regression : where OLS is modified to minimize the `sum` of the coefficients (`L1 regularization`)
+
+* Ridge Regression : where OLS is modified to minimize the `squared sum` of the coefficients (`L2 regularization`)
+
+### 4. 
 
 
 # Samples, Reference Architectures & Best Practices
