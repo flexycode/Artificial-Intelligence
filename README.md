@@ -169,33 +169,41 @@ data = sns.load_dataset("attention")
 # draw jointplot with 
 # hex kind 
 sns.jointplot(x = "solutions", y = "score", 
-              kind = "hex", data = data)  
+              kind = "hex", data = data)   
 # show the plot 
 plt.show() 
 ```
-#### Output: 
+#### [Output:](https://github.com/flexycode/Artificial-Intelligence/blob/master/images/10.Seaborn-Output1.png)
 
-<img src:="images/Seaborn Output 1.png">
+<img src:="images/10.Seaborn-Output1.png">
 
 Example 2: 
-#### Input:
+
+#### Input: 
+
 ```bash
 # importing required packages 
 import seaborn as sns 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt  
   
-# loading dataset 
+# loading dataset  
 data = sns.load_dataset("mpg") 
   
 # draw jointplot with 
 # scatter kind 
 sns.jointplot(x = "mpg", y = "acceleration", 
-              kind = "scatter", data = data) 
+              kind = "scatter", data = data)
+
 # show the plot 
 plt.show() 
 ```
 #### Output:
-<img src:="images/Seaborn Output 2.png">
+<img src:="images/10.Seaborn-Output2.png">
+
+Example 3: 
+
+#### Input:
+
 
 
 # Samples, Reference Architectures & Best Practices
