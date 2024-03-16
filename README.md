@@ -31,7 +31,7 @@ Artificial intelligence is a branch of computer science that aims to create inte
 
 * 💡 Learning
 
-* 💡 Planning 
+* 💡 Planning  
 
 * 💡 Ability to manipulate and move objects
 
@@ -313,7 +313,7 @@ Samples are a collection of open source Python repositories created by the Micro
 | [Azure Cognitive Services Python SDK](https://github.com/Azure-Samples/cognitive-services-python-sdk-samples)|Learn how to use the Cognitive Services Python SDK with these samples |
 | [Azure Intelligent Kiosk](https://github.com/microsoft/Cognitive-Samples-IntelligentKiosk)|Here you will find several demos showcasing workflows and experiences built on top of the Microsoft Cognitive Services.|
 | [MML Spark Samples](https://github.com/Azure/mmlspark/tree/master/notebooks/samples)|MMLSpark is an ecosystem of tools aimed towards expanding the distributed computing framework Apache Spark in several new directions.|
-| [Seismic Deep Learning Samples](https://github.com/microsoft/seismic-deeplearning/)|Deep Learning for Seismic Imaging and Interpretation.|
+| [Seismic Deep Learning Samples](https://github.com/microsoft/seismic-deeplearning/)|Deep Learning for Seismic Imaging and Interpretation.| 
 
 
 # AI300 - Best Practices <a name="ai300"></a>
@@ -347,4 +347,10 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
+# 💫 Roadmap 
 
+### Roadmap for Artificial Intelligence and Machine Learning
+
+https://github.com/flexycode/AI-Expert-Roadmap
+
+ 
