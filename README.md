@@ -353,4 +353,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 https://github.com/flexycode/AI-Expert-Roadmap
 
- 
+### Roadmap for Machine Learning
+
+### Roadmap for Data Science 
+
+
